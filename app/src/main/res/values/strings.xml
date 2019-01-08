@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FridgeUp</string>
+    <string name="menu_fridge">Fridge</string>
+    <string name="menu_freezer">Freezer</string>
+</resources>
