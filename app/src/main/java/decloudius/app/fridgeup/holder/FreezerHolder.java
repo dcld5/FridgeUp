@@ -2,6 +2,7 @@ package decloudius.app.fridgeup.holder;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,6 +18,7 @@ public class FreezerHolder extends RecyclerView.ViewHolder{
     public TextView nama_freezer;
     public TextView waktu_freezer;
     public TextView jumlah_freezer;
+    public Button btn_frz;
 
     public FreezerHolder(View itemView){
         super (itemView);
@@ -24,5 +26,6 @@ public class FreezerHolder extends RecyclerView.ViewHolder{
         nama_freezer = (TextView) itemView.findViewById(R.id.txt_namafreezer);
         waktu_freezer = (TextView) itemView.findViewById(R.id.txt_time_freezer);
         jumlah_freezer = (TextView) itemView.findViewById(R.id.txt_jumlah_freezer);
+        btn_frz = (Button) itemView.findViewById(R.id.btn_edit_freezer);
     }
 }

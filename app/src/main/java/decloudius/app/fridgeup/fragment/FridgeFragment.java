@@ -41,6 +41,7 @@ public class FridgeFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        btnfridge = (FloatingActionButton) view.findViewById(R.id.btn_to_add_Fridge);
         RecyclerView recyclerView = view.findViewById(R.id.lst_fridge);
 
         fridgeCollection();

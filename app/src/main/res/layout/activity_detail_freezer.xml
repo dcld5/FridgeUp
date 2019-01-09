@@ -21,7 +21,9 @@
         android:hint="Nama Item"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="170dp" />
+        android:layout_marginTop="170dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"/>
 
     <EditText
         android:id="@+id/edit_jumlahitem_freezer"
@@ -30,7 +32,9 @@
         android:hint="Jumlah Item"
         android:layout_below="@+id/edit_namaitem_freezer"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="40dp"
+        android:inputType="number"
+        android:imeOptions="actionDone"/>
 
     <Button
         android:id="@+id/btn_acc_freezer"
